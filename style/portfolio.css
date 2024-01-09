@@ -1,0 +1,150 @@
+/* common shared style */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+border:0;
+color:white;
+font-size: 20px;
+font-weight: 700;
+padding :15px 35px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+.nav-title{
+color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text-primary{
+    color:#FD6E0A;
+
+
+}
+nav > ul {
+    display:flex;
+} 
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:#474747 ;
+}
+/* header related style */
+.header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+
+}
+.banner  .profile-picture{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+.banner-title{
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+/* main section style */
+.main{
+    max-width:1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin:130px 0 ;
+}
+.about-container{
+    display: flex;
+}
+.about-info-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+#what-i-do-description{
+    padding: 30px 150px;
+
+}
+/* what i do related style */
+.skill-cointaner{
+    display: flex;
+    gap: 24px
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0 px;
+
+}
+.skill-description{
+
+    color:#757575;
+}
+.section-title{
+
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+/* resume section style */
+.resume-column-title{
+    color:  #474747;
+font-size: 30px;
+font-weight: 700;
+
+
+}
