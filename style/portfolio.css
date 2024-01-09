@@ -148,3 +148,53 @@ font-weight: 700;
 
 
 }
+.resume-cointaner{
+    display:flex;
+    gap: 50px;
+}
+
+.resumee-item-institute ,.resume-item-description{
+    color: #757575;
+}
+.resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.resumee-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-cointaner hr{
+ margin:30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top:50px;
+}
+footer{
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px,200px;
+    margin-top:100px ;
+    gap:100px;
+
+}
+.footer-column{
+    width:50%;
+}
+.contact input[type="text"], .contact input[type="email"]{
+    display: block;
+    margin-bottom: 24px;
+    padding:18px,35px;
+    color:#757575;
+    border-radius: 5px;
+    background: #fff;
+    border:0;
+    width:100%;
+}
+.social-link a{
+    margin-right: 25px;
+}
